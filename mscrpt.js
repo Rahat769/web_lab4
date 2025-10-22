@@ -21,7 +21,7 @@ sumbitB.addEventListener('click', () => {
     
     localStorage.setItem('tasks', JSON.stringify(tasks));
     updateTaskList();
-    imputF.value = "";
+    inputF.value = "";
 });
 
 function updateTaskList() {
